@@ -1,0 +1,39 @@
+.heading {    
+    width: 100%;
+    background-color: rgba(26, 26, 26, 0.822);
+    height: 100px;
+    /* position: relative; left: 20rem; */
+    display: flex; justify-content: center;
+    color: cyan;
+    box-shadow: 3px 3px 12px yellow;
+    width : 600px
+}
+.heading h1 {
+    display: flex; justify-content: center;
+    align-self: center;
+}
+@media (min-width : 700px) {
+    .heading {
+        width: 80%;
+        margin-left: 140px;
+    }
+    .head-quote {
+        margin-left: 140px;
+    }
+}
+@media (max-width : 700px) {
+    .heading {
+        width: 90%;
+        height: 150px;
+        margin-left: 30px;
+    }
+}
+@media (max-width : 315px) {
+    .heading {
+        width: 90%;
+        height: 200px;
+    }
+}
+.head-quote{
+    color: gold;
+}

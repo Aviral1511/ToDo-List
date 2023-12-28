@@ -1,0 +1,76 @@
+li {
+    list-style-type: none;
+}
+
+.bodyH4 {
+    background-color: #F652A0;
+    box-shadow: 3px 3px 12px yellow;
+}
+
+.input-place {
+    margin-left: 12rem;    
+    width: 70%;
+
+}
+.todo-List {    
+    border: 2px solid ghostwhite;    
+    color: #FFF3D9;
+    font-weight: 500 ;
+    font-size: larger;
+    margin-bottom: 1rem; 
+    background-image: url("../images/discipline2.avif");
+    /* background-size: cover; */
+    width: 80%; margin-left: 8rem;
+}
+.tasks {
+    border: 3px solid #F652A0;
+    margin: 10px 10px 10px 0px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 10px yellow;
+}
+
+.bottomButtons{
+    height: 60px;
+    width: 100%;
+    /* position: relative;
+    top: 10px;
+     background-color: #36EEE0; 
+    z-index: 1; */
+}
+
+@media (max-width : 700px) {
+    .input-place {
+        margin-left: 2rem;    
+        width: 90%;    
+    }
+    .todo-List {
+        margin-left: 2rem;
+        width: 90%;
+    }
+}
+@media (max-width : 450px) {
+    /* .todo-List {
+        height: 100px;
+    } */
+    .tasks {
+        height: 90%;
+        width: 90%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width : 380px) {
+    /* .todo-List {
+        height: 100px;    
+    } */
+    .tasks {
+        height: 90%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+
